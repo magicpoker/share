@@ -1,4 +1,5 @@
 # Share
+此项目主要用于angular学习使用，以及希望对当前所在团队技术能力建设有所帮助！
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
