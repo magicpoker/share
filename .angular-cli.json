@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "resources"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,9 +20,17 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "./third_lib/bootstrap3/css/bootstrap.css",
+        "styles.css",
+        "./third_lib/particleground/css/style.css",
+        "./resources/animate/animate.css"
+
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "./third_lib/particleground/jquery.particleground.min.js",
+        "./third_lib/bootstrap3/js/bootstrap.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
