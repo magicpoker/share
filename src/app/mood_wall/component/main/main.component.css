@@ -1,0 +1,62 @@
+.main{
+  padding: 10px 0px;
+  background: #eee;
+}
+.title{
+  width: 100%;
+  height: 90px;
+  color: #676A6C;
+  padding: 20px 30px;
+  background: #fff;
+}
+.title h2{
+  font-size: 24px;
+  display: block;
+  font-weight: bold;
+  margin: 0px;
+  font-weight: normal;
+}
+.title p{
+  font-size: 14px;
+}
+.label-list{
+  padding: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+
+}
+.label-one{
+  margin: 25px;
+  float: left;
+}
+.add-btn{
+  width: 40px;
+  height: 35px;
+  background: #1AB394;
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  cursor: pointer;
+  border-radius:50% 0 0 50% ;
+  transition:0.4s; /* Safari and Chrome */
+  font-size: 20px;
+  padding: 5px;
+
+}
+.add-btn:hover{
+  width: 60px;
+  border-radius:40% 0 0 40% ;
+}
+.add-btn .glyphicon{
+  animation: myfirst 3s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+}
+@keyframes myfirst
+{
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+

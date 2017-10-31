@@ -1,0 +1,37 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.welcome{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+.welcome-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight:bold;
+}
+.welcome-tip{
+  text-align: center;
+  font-size: 16px;
+}
+.welcome-btn{
+  margin-top: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.welcome-btn a{
+  border-color: #fff;
+  color: #fff;
+}
+.welcome-btn a:hover{
+  background: #fff;
+  color: #694E92;
+}

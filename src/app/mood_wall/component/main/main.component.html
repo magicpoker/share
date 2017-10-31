@@ -1,0 +1,15 @@
+<div class="main">
+  <div class="title">
+    <h2>心情墙</h2>
+    <p>keep a good mood！</p>
+  </div>
+  <div class="label-list">
+    <div *ngFor="let label of labels" class="label-one">
+      <app-label [position]="label.position"></app-label>
+    </div>
+
+  </div>
+  <div class="add-btn" (click)="addLabel($event)"><i class="glyphicon glyphicon-plus-sign"></i></div>
+  <app-dialog [option]="dialogOption"></app-dialog>
+</div>
+

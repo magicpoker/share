@@ -1,0 +1,16 @@
+<div class="main container-fluid">
+  <div class="title">
+    <h2>Team</h2>
+    <p>the power of a team is limitless</p>
+  </div>
+  <div class="user-list">
+    <div class="row">
+      <div *ngFor="let user of users" class="col-md-3">
+        <app-user [user]="user"></app-user>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="add-btn" (click)="addLabel($event)"><i class="glyphicon glyphicon-plus-sign"></i></div>
+</div>
